@@ -1,0 +1,34 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Car", 
+  
+
+
+  "ExternalCameras": {
+    
+    "fixed1": {
+      "CaptureSettings": [
+        {
+          "ImageType": 0,
+          "Width": 2000,
+          "Height": 1600,
+          "FOV_Degrees": 90,
+          "AutoExposureSpeed": 100,
+          "AutoExposureBias": 0,
+          "AutoExposureMaxBrightness": 0.64,
+          "AutoExposureMinBrightness": 0.03,
+          "MotionBlurAmount": 0,
+          "TargetGamma": 1.0,
+          "ProjectionMode": "",
+          "OrthoWidth": 5.12
+        }],
+        "X": 0, "Y": 0, "Z": -10,
+        "Pitch": -90, "Roll": 0, "Yaw": 0
+    }
+},
+
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "fixed1", "ImageType": 0,  "Visible": true, "External": true}
+  ]
+}
